@@ -6,7 +6,7 @@
 
 ## Description
 
-This fork of IPC only supports systemless install (e.g. Magisk), and solves the "failed to mount /system" error.
+This fork of IPC and solves the "failed to mount /system" error, as it mounts it like the "template" magisk module does.
 
 IPControl automatically switches charging off when battery level reaches a certain
 disable threshold and back on as soon as it drowns to enable threshold. Thus, it
