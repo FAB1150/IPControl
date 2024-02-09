@@ -6,6 +6,8 @@
 
 ## Description
 
+This fork of IPC only supports systemless install (e.g. Magisk), and solves the "failed to mount /system" error.
+
 IPControl automatically switches charging off when battery level reaches a certain
 disable threshold and back on as soon as it drowns to enable threshold. Thus, it
 is kept bouncing between those boundaries. This feature is called `Automation`.
